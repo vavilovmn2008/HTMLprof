@@ -1,0 +1,41 @@
+[type="text"],
+[type="email"],
+[type="password"] {
+    width: 360px;
+    height: 45px;
+}
+
+[type="email"],
+[type="password"] {
+    margin-top: 20px;
+}
+
+[type="submit"] {
+    @include font (14px, 17px, 400);
+    width: 100px;
+    height: 49px;   
+    color: $white;
+    background-color: $lite-pink;
+    border-radius: 0 50px 50px 0;
+    border: none;
+}
+
+[type="email-subscribe"] {
+    @include font (14px, 17px, 400);
+    width: 222px;
+    height: 49px;
+    padding-left: 30px;
+    background-color: $subscribe-gray;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+[type="radio"] {
+    display: none;
+}
+[type="radio"]:checked+.label:after {
+    background: $lite-pink;
+}
+
+[type="text"] {
+    margin-top: 20px;
+}

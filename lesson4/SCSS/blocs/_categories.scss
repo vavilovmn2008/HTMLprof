@@ -1,0 +1,69 @@
+.categories {
+    .categories__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+    .categories__item { 
+        width: 360px;
+        min-height: 260px;
+    }
+    
+    .categories__item--woman {
+        background-image: url(../img/categories-woman.jpg);
+        align-items: center;
+        display: flex;
+    }
+    
+    .categories__item--man {
+        background-image: url(../img/categories-man.jpg);
+        align-items: center;
+        display: flex;
+    }
+    
+    .categories__item--kids {
+        background-image: url(../img/categories-kids.jpg);
+        align-items: center;
+        display: flex;
+    }
+    
+    .categories__item--accessories {
+        background-image: url(../img/categories-accesories.jpg);
+        min-height: 180px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        margin: 30px 0 96px;
+    }
+    
+    .categories__item-wrapper-woman {
+        padding: 0 0 0 103px;
+    }
+    
+    .categories__item-wrapper-man {
+        padding: 0 0 0 125px;
+    }
+    
+    .categories__item-wrapper-kids {
+        padding: 0 0 0 123px;
+    }
+    
+    .categories__item-wrapper-accessories {
+        padding: 0 0 0 491px;
+    }
+    .categories__text {
+        @include font (16px, 19px, 400);
+        text-align: center;
+        color:  $white;
+        text-transform: uppercase;
+    }
+    
+    .categories__heading {
+        @include font (24px, 29px, 700);
+        text-align: center;
+        color:  $dark-pink;
+        text-transform: uppercase;
+    }
+}
+
