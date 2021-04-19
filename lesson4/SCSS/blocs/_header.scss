@@ -1,0 +1,30 @@
+
+.header {
+    background-color: $dark-blue;
+    margin: 0 auto; 
+    width: 1600px;
+    .header__wrapper {
+        min-height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header__navigation {
+        display: none;
+    }
+    
+    .header__logo {
+        margin: 0 41px 0 0;
+    }
+    
+    .header__button {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .header__link {
+        margin: 0 0 0 34px;
+    }
+}
+

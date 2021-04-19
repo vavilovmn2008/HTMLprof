@@ -1,0 +1,15 @@
+
+.label {
+    margin: 0 0 0 30px;
+    position: relative;
+}
+
+.label:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+}

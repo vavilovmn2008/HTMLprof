@@ -1,0 +1,65 @@
+.loyalty_container {
+    display: flex;
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.loyalty {
+    width: 1600px;
+}
+.loyalty__list {
+    margin: 64px 0 0 218px;
+}
+    
+.loyalty__heading {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        padding: 0 0 22px 0;
+        text-transform: uppercase;
+        color: $dark-black;
+}
+    
+.loyalty__text {
+        font-size: 24px;    
+        font-weight: 300;
+        line-height: 29px;
+        padding: 0 0 21px 0;
+        color: $dark-black;
+}
+    
+.loyalty__sub-text {
+        display: block;
+}
+    
+.loyalty__item-wrapper {
+        padding: 0 0 0 35px;
+}
+    
+.loyalty__item-wrapper-text {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        padding: 0 0 16px 0;
+        color: $dark-black;
+        position: relative;
+}
+    
+.loyalty__item-wrapper-text:before {
+        content: '';
+        width: 20px;
+        height: 20px;   
+        position: absolute;
+        top: 5px;    
+        background-image: url(../img/V.png);
+        background-size: 20px 20px;
+        left: -30px;
+        color: $dark-black;
+}
+    
+.loyalty-form {
+        padding: 64px 0 0 230px;
+}
+
+
+

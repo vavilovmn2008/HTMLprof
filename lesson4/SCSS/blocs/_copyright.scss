@@ -1,0 +1,19 @@
+.copyright {
+    min-height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1598px;
+    margin: 0 auto;
+    background-color: $black;
+    .copyright__text {
+        @include font (14px, 19px, 400);
+        letter-spacing: 0em;
+        color: $white;
+        padding: 30px 0 30px 235px;
+    }
+    
+    .copyright__link {
+        padding:  0 120px 0 0;
+    }
+}
